@@ -13,10 +13,14 @@
             "url": "http://opensource.org/licenses/GPL-2.0"
         }
     ],
-    "dependencies": [
-        "jquery"
-    ],
-    "homepage" : "http://www.powerhour.at/devblog/jqrotate-rotate-dom-elements-jquery/",
-    "demo" : "http://www.powerhour.at/devblog/jqrotate-rotate-dom-elements-jquery/",
-    "keywords" : ["rotate", "rotation", "css3"]
+    "dependencies": {
+        "jquery": "1.6.4"
+    },
+    "homepage": "http://www.powerhour.at/devblog/jqrotate-rotate-dom-elements-jquery/",
+    "demo": "http://www.powerhour.at/devblog/jqrotate-rotate-dom-elements-jquery/",
+    "keywords": [
+        "rotate",
+        "rotation",
+        "css3"
+    ]
 }
