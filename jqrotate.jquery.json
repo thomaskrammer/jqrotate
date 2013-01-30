@@ -7,6 +7,7 @@
         "email": "thomas.krammer@dotworx.at",
         "url": "http: //www.dotworx.at"
     },
+    "description" : "This plugin allows you to rotate n DOM element (e.g. div) by the amount of degrees given. Works for Mozilla Firefox 3.5+, Safari 5.0+, Internet Explorer 6+ and Google Chrome 10+",
     "licenses": [
         {
             "type": "GPLv2",
