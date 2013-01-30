@@ -1,9 +1,9 @@
 {
     "name": "jqrotate",
-    "version": "0.1.0",
-    "title": "jrotate-ACSSrotationplugin",
+    "version": "0.1.1",
+    "title": "jqrotate - A CSS rotation plugin",
     "author": {
-        "name": "ThomasKrammer",
+        "name": "Thomas Krammer",
         "email": "thomas.krammer@dotworx.at",
         "url": "http: //www.dotworx.at"
     },
