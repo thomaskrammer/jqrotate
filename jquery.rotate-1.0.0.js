@@ -2,7 +2,7 @@
  * 
  * @author Thomas Krammer - thomas.krammer@dotworx.at
  * @copyright 2013 DOTWORX - Web- & Mobile Development KG
- * @version 0.1.1
+ * @version 1.0.0
  *
  * This plugin allows you to rotate n DOM element (e.g. div) by the amount of degrees given.
  *
