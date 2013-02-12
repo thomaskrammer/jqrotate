@@ -1,13 +1,13 @@
 {
     "name": "jqrotate",
-    "version": "1.0.1",
+    "version": "1.1",
     "title": "jqrotate - A CSS rotation plugin",
     "author": {
         "name": "Thomas Krammer",
         "email": "thomas.krammer@dotworx.at",
         "url": "http://www.dotworx.at"
     },
-    "description" : "This plugin allows you to rotate a DOM element (e.g. div) by the amount of degrees given. Works for Mozilla Firefox 3.5+, Safari 5.0+, Internet Explorer 6+ and Google Chrome 10+",
+    "description" : "This plugin allows you to rotate a DOM element (e.g. div) by the amount of degrees given. You do not need any CSS3 knowledge to use that plugin. Works for Mozilla Firefox 3.5+, Safari 5.0+, Internet Explorer 6+ and Google Chrome 10+",
     "licenses": [
         {
             "type": "GPLv2",
@@ -22,6 +22,7 @@
     "keywords": [
         "rotate",
         "rotation",
-        "css3"
+        "css3",
+        "transform"
     ]
 }

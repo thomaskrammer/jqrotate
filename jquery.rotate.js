@@ -2,7 +2,7 @@
  * 
  * @author Thomas Krammer - thomas.krammer@dotworx.at
  * @copyright 2013 DOTWORX - Web- & Mobile Development KG
- * @version 1.0.0
+ * @version 1.1
  *
  * This plugin allows you to rotate n DOM element (e.g. div) by the amount of degrees given.
  *
@@ -38,7 +38,11 @@ $.fn.jqrotate = function(degrees, options)
 			    	  			'-webkit-transform' :  "matrix(" + a + ", " + c + ", " + b + ", " + d + ", 0, 0)",
 			    	  			'-o-transform' :  "matrix(" + a + ", " + c + ", " + b + ", " + d + ", 0, 0)"
 			      });
-			        
+			      
+			      // set margins to correct overflow
+			      // a / b = sin alpha / sin beta
+			      var margin = parseInt((Math.sin(degrees) / Math.sin(90 - degrees)) * $(this).width());
+			      $(this).css('margin-top', margin + 'px').css('margin-bottom', margin + 'px')
 			        
 			    });  
 			};
