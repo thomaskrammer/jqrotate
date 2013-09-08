@@ -37,7 +37,8 @@ $.fn.jqrotate = function(degrees, options)
 			    	  			'-moz-transform' :  "matrix(" + a + ", " + c + ", " + b + ", " + d + ", 0, 0)",
 								'-ms-transform' :  "matrix(" + a + ", " + c + ", " + b + ", " + d + ", 0, 0)",
 			    	  			'-webkit-transform' :  "matrix(" + a + ", " + c + ", " + b + ", " + d + ", 0, 0)",
-			    	  			'-o-transform' :  "matrix(" + a + ", " + c + ", " + b + ", " + d + ", 0, 0)"
+			    	  			'-o-transform' :  "matrix(" + a + ", " + c + ", " + b + ", " + d + ", 0, 0)",
+								'transform' :  "matrix(" + a + ", " + c + ", " + b + ", " + d + ", 0, 0)"
 			      });
 			      
 			      // set margins to correct overflow
